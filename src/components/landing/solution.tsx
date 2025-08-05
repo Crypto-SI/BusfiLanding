@@ -7,12 +7,11 @@ export function Solution() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div>
                         <Image
-                            src="https://placehold.co/600x400.png"
+                            src="/images/funding.png"
                             alt="Investors and an African entrepreneur using the Bus-Fi platform"
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
-                            data-ai-hint="entrepreneur tablet success"
                         />
                     </div>
                     <div>
