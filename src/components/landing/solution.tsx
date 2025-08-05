@@ -12,7 +12,7 @@ export function Solution() {
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
-                            data-ai-hint="investors smiling entrepreneur"
+                            data-ai-hint="entrepreneur tablet success"
                         />
                     </div>
                     <div>
