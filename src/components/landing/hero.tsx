@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { PlayCircle } from "lucide-react";
 
 export function Hero() {
     return (
@@ -22,9 +23,15 @@ export function Hero() {
                 <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-slate-200 drop-shadow-md">
                     Bus-Fi is a decentralized crowdfunding platform on the Hedera network that empowers you to finance bus networks in underserved African communities. Earn rewards, support local economies, and drive real-world change with Web3 technology.
                 </p>
-                <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
+                <div className="mt-10 flex flex-wrap justify-center items-center gap-4">
                     <Button asChild size="lg" className="text-lg">
                         <Link href="#how-it-works">Explore Bus Projects</Link>
+                    </Button>
+                    <Button asChild variant="secondary" size="lg" className="text-lg">
+                        <Link href="https://youtu.be/xJSgzBco1Jc" target="_blank">
+                            <PlayCircle className="mr-2 h-5 w-5" />
+                            Watch Our Story
+                        </Link>
                     </Button>
                     <Button asChild variant="outline" size="lg" className="text-lg border-primary text-primary hover:bg-primary/10 hover:text-primary">
                         <Link href="#">Read Our Litepaper</Link>
