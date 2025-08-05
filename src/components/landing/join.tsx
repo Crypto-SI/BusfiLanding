@@ -12,7 +12,7 @@ export function Join() {
                             Be a Part of the Bus-Fi Revolution
                         </h2>
                         <p className="text-lg text-muted-foreground mb-8">
-                            Whether you are an investor looking to make a meaningful impact, a bus operator seeking funding, or a developer passionate about Web3, there&apos;s a place for you in the Bus-Fi community.
+                            Whether you are an investor looking to make a meaningful impact, a bus operator seeking funding, or a developer passionate about Web3, there's a place for you in the Bus-Fi community.
                         </p>
                         <Button asChild size="lg" className="text-lg">
                             <Link href="#">Get Involved</Link>
@@ -25,7 +25,7 @@ export function Join() {
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
-                            data-ai-hint="collaboration diverse team"
+                            data-ai-hint="community collaboration global"
                         />
                     </div>
                 </div>
