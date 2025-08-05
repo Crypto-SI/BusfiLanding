@@ -56,7 +56,7 @@ export function Hero() {
                         </DialogContent>
                     </Dialog>
                     <Button asChild variant="outline" size="lg" className="text-lg border-primary text-primary hover:bg-primary/10 hover:text-primary">
-                        <Link href="#">Read Our Litepaper</Link>
+                        <Link href="/litepaper">Read Our Litepaper</Link>
                     </Button>
                 </div>
             </div>
