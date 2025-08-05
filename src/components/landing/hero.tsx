@@ -7,11 +7,10 @@ export function Hero() {
         <section id="hero" className="relative text-white overflow-hidden">
              <div className="absolute inset-0">
                 <Image
-                    src="https://placehold.co/1920x1080.png"
+                    src="/images/hero.png"
                     alt="A modern bus in a bustling African city"
                     fill
                     className="object-cover"
-                    data-ai-hint="modern bus african city"
                     priority
                 />
                 <div className="absolute inset-0 bg-black/60"></div>
