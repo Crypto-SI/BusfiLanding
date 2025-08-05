@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
-import { BusFiLogo } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
@@ -25,7 +25,7 @@ export function Header() {
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
                         <Link href="#" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
-                            <BusFiLogo className="h-8 w-auto" />
+                            <Image src="/images/busfi-logo.png" alt="Bus-Fi Logo" width={32} height={32} />
                             <span className="font-headline text-xl font-bold tracking-wider text-primary">BUS-FI</span>
                         </Link>
                     </div>
@@ -53,7 +53,7 @@ export function Header() {
                                 <div className="flex flex-col h-full">
                                     <div className="flex items-center justify-between p-4 border-b">
                                         <Link href="#" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
-                                            <BusFiLogo className="h-8 w-auto" />
+                                            <Image src="/images/busfi-logo.png" alt="Bus-Fi Logo" width={32} height={32} />
                                             <span className="font-headline text-xl font-bold tracking-wider text-primary">BUS-FI</span>
                                         </Link>
                                         <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>

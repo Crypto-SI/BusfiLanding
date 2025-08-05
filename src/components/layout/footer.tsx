@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BusFiLogo } from "@/components/icons";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Twitter, Send, MessageCircle, Book } from "lucide-react";
 
@@ -25,7 +25,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="flex flex-col items-start space-y-4">
                         <Link href="#" className="flex items-center space-x-2">
-                            <BusFiLogo className="h-10 w-10" />
+                            <Image src="/images/busfi-logo.png" alt="Bus-Fi Logo" width={40} height={40} />
                             <span className="font-headline text-2xl tracking-wider text-primary">BUS-FI</span>
                         </Link>
                         <p className="text-muted-foreground text-sm">© 2025 Bus-Fi. All Rights Reserved.</p>
