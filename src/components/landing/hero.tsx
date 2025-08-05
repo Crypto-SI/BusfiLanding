@@ -1,6 +1,10 @@
+
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { PlayCircle } from "lucide-react";
 
 export function Hero() {
@@ -13,6 +17,7 @@ export function Hero() {
                     fill
                     className="object-cover"
                     priority
+                    data-ai-hint="modern bus african city"
                 />
                 <div className="absolute inset-0 bg-black/60"></div>
             </div>
@@ -27,12 +32,26 @@ export function Hero() {
                     <Button asChild size="lg" className="text-lg">
                         <Link href="#how-it-works">Explore Bus Projects</Link>
                     </Button>
-                    <Button asChild variant="secondary" size="lg" className="text-lg">
-                        <Link href="https://youtu.be/xJSgzBco1Jc" target="_blank">
-                            <PlayCircle className="mr-2 h-5 w-5" />
-                            Watch Our Story
-                        </Link>
-                    </Button>
+                    <Dialog>
+                        <DialogTrigger asChild>
+                            <Button variant="secondary" size="lg" className="text-lg">
+                                <PlayCircle className="mr-2 h-5 w-5" />
+                                Watch Our Story
+                            </Button>
+                        </DialogTrigger>
+                        <DialogContent className="max-w-3xl p-0">
+                            <div className="aspect-video">
+                                <iframe 
+                                    className="w-full h-full"
+                                    src="https://www.youtube.com/embed/xJSgzBco1Jc" 
+                                    title="YouTube video player" 
+                                    frameBorder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowFullScreen>
+                                </iframe>
+                            </div>
+                        </DialogContent>
+                    </Dialog>
                     <Button asChild variant="outline" size="lg" className="text-lg border-primary text-primary hover:bg-primary/10 hover:text-primary">
                         <Link href="#">Read Our Litepaper</Link>
                     </Button>
