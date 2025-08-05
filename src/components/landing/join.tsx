@@ -20,12 +20,11 @@ export function Join() {
                     </div>
                     <div>
                         <Image
-                            src="https://placehold.co/600x400.png"
+                            src="/images/three.png"
                             alt="Diverse group of people collaborating"
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
-                            data-ai-hint="community collaboration global"
                         />
                     </div>
                 </div>
