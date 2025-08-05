@@ -4,7 +4,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { PlayCircle } from "lucide-react";
 
 export function Hero() {
@@ -40,6 +40,9 @@ export function Hero() {
                             </Button>
                         </DialogTrigger>
                         <DialogContent className="max-w-3xl p-0">
+                             <DialogHeader className="sr-only">
+                                <DialogTitle>Bus-Fi Story Video</DialogTitle>
+                             </DialogHeader>
                             <div className="aspect-video">
                                 <iframe 
                                     className="w-full h-full"
