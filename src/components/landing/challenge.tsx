@@ -15,12 +15,11 @@ export function Challenge() {
                     </div>
                     <div className="order-1 md:order-2">
                         <Image
-                            src="https://placehold.co/600x400.png"
+                            src="/images/busstop.png"
                             alt="Frustrated individual waiting at a desolate bus stop"
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
-                            data-ai-hint="frustrated people waiting"
                         />
                     </div>
                 </div>
