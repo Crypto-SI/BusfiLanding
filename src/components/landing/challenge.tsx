@@ -20,7 +20,7 @@ export function Challenge() {
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
-                            data-ai-hint="desolate bus stop"
+                            data-ai-hint="frustrated people waiting"
                         />
                     </div>
                 </div>
