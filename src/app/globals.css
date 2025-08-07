@@ -43,24 +43,24 @@ body {
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
   .dark {
-    --background: 225 4% 27%;
-    --foreground: 0 0% 98%;
-    --card: 225 4% 32%;
-    --card-foreground: 0 0% 98%;
-    --popover: 225 4% 27%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 50 100% 50%;
+    --background: 220 5% 15%; /* Darker, slightly blue background */
+    --foreground: 210 20% 98%; /* Brighter, clearer text */
+    --card: 220 5% 20%; /* Slightly lighter cards */
+    --card-foreground: 210 20% 98%;
+    --popover: 220 5% 15%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 50 100% 50%; /* Bus-Fi Yellow */
     --primary-foreground: 50 100% 10%;
-    --secondary: 225 4% 35%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 225 4% 35%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 106 40% 55%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 225 4% 40%;
-    --input: 225 4% 40%;
+    --secondary: 220 5% 25%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 220 5% 25%;
+    --muted-foreground: 210 15% 70%; /* Much brighter muted text */
+    --accent: 106 40% 55%; /* Bus-Fi Green */
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 5% 25%;
+    --input: 220 5% 25%;
     --ring: 50 100% 60%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
