@@ -25,7 +25,7 @@ export function Header() {
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex items-center">
                         <Link href="#" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
-                            <Image src="/images/busfiicon.png" alt="Bus-Fi Logo" width={32} height={32} />
+                            <Image src="/images/busfiicon" alt="Bus-Fi Logo" width={32} height={32} />
                             <span className="font-headline text-xl font-bold tracking-wider text-primary">BUS-FI</span>
                         </Link>
                     </div>
@@ -53,7 +53,7 @@ export function Header() {
                                 <div className="flex flex-col h-full">
                                     <div className="flex items-center justify-between p-4 border-b">
                                         <Link href="#" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
-                                            <Image src="/images/busfiicon.png" alt="Bus-Fi Logo" width={32} height={32} />
+                                            <Image src="/images/busfiicon" alt="Bus-Fi Logo" width={32} height={32} />
                                             <span className="font-headline text-xl font-bold tracking-wider text-primary">BUS-FI</span>
                                         </Link>
                                         <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>

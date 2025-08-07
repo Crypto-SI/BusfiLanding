@@ -25,7 +25,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="flex flex-col items-start space-y-4">
                         <Link href="#" className="flex items-center space-x-2">
-                            <Image src="/images/busfiicon.png" alt="Bus-Fi Logo" width={40} height={40} />
+                            <Image src="/images/busfiicon" alt="Bus-Fi Logo" width={40} height={40} />
                             <span className="font-headline text-2xl tracking-wider text-primary">BUS-FI</span>
                         </Link>
                         <p className="text-muted-foreground text-sm">© 2025 Bus-Fi. All Rights Reserved.</p>
