@@ -38,7 +38,7 @@ export function Roadmap() {
         <section id="roadmap" className="py-12 md:py-24 bg-background">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
-                    <h2 className="font-headline text-4xl md:text-5xl text-primary-foreground">
+                    <h2 className="font-headline text-4xl md:text-5xl text-primary">
                         Our Journey to Reshape African Transit
                     </h2>
                 </div>

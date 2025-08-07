@@ -15,7 +15,7 @@ export function Solution() {
                         />
                     </div>
                     <div>
-                        <h2 className="font-headline text-4xl md:text-5xl text-primary-foreground mb-4">
+                        <h2 className="font-headline text-4xl md:text-5xl text-primary mb-4">
                             Democratizing Investment, Empowering Communities
                         </h2>
                         <p className="text-lg text-muted-foreground">

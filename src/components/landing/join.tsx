@@ -8,7 +8,7 @@ export function Join() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 className="font-headline text-4xl md:text-5xl text-primary-foreground mb-4">
+                        <h2 className="font-headline text-4xl md:text-5xl text-primary mb-4">
                             Be a Part of the Bus-Fi Revolution
                         </h2>
                         <p className="text-lg text-muted-foreground mb-8">
@@ -25,6 +25,7 @@ export function Join() {
                             width={600}
                             height={400}
                             className="rounded-lg shadow-xl"
+                            data-ai-hint="global community collaboration"
                         />
                     </div>
                 </div>

@@ -6,7 +6,7 @@ export function Challenge() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="order-2 md:order-1">
-                        <h2 className="font-headline text-4xl md:text-5xl text-primary-foreground mb-4">
+                        <h2 className="font-headline text-4xl md:text-5xl text-primary mb-4">
                             Bridging the Gap in African Transit
                         </h2>
                         <p className="text-lg text-muted-foreground">
