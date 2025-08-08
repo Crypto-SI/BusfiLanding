@@ -41,7 +41,7 @@ export function HowItWorks() {
                                 <div className="p-4 bg-primary/10 rounded-full mb-4">
                                     <step.icon className="h-8 w-8 text-primary" />
                                 </div>
-                                <CardTitle className="font-headline text-2xl text-primary-foreground">{step.title}</CardTitle>
+                                <CardTitle className="font-headline text-2xl text-primary">{step.title}</CardTitle>
                             </CardHeader>
                             <CardDescription className="text-base text-muted-foreground">
                                 {step.description}
