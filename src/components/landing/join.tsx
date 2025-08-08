@@ -12,19 +12,19 @@ const socialLinks = [
         name: "Twitter", 
         icon: Twitter, 
         handle: "Crypto_SI",
-        href: "https://twitter.com/Crypto_SI" 
+        href: "https://x.com/Crypto_SI" 
     },
     { 
         name: "Discord", 
         icon: MessageCircle, 
         handle: "the Cryptosi channel",
-        href: "#"
+        href: "https://discord.gg/G3qFyvYuBt"
     },
     { 
         name: "Telegram", 
         icon: Send, 
         handle: "crypto waffle lite",
-        href: "#"
+        href: "https://t.me/+AVoimeTI8Ew5ZGQ0"
     },
 ];
 
