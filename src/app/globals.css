@@ -54,7 +54,7 @@ body {
     --secondary: 220 5% 25%;
     --secondary-foreground: 210 20% 98%;
     --muted: 220 5% 25%;
-    --muted-foreground: 210 15% 70%; /* Much brighter muted text */
+    --muted-foreground: 210 15% 90%; /* Much brighter muted text */
     --accent: 106 40% 55%; /* Bus-Fi Green */
     --accent-foreground: 210 20% 98%;
     --destructive: 0 63% 31%;
