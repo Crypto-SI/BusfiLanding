@@ -54,9 +54,9 @@ export function Roadmap() {
                                 </div>
                                 <div className={`w-1/2 ${index % 2 === 0 ? 'pl-8' : 'pr-8'}`}>
                                     <div className={`p-6 rounded-lg bg-card shadow-lg border border-border/50 ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>
-                                        <p className="text-sm text-primary font-semibold">{item.date}</p>
-                                        <h3 className="font-headline text-2xl text-primary-foreground mt-1 mb-3">{item.phase}</h3>
-                                        <ul className="space-y-1 text-muted-foreground">
+                                        <p className="text-sm text-muted-foreground font-semibold">{item.date}</p>
+                                        <h3 className="font-headline text-2xl text-primary mt-1 mb-3">{item.phase}</h3>
+                                        <ul className="space-y-1 text-foreground">
                                             {item.milestones.map((milestone, i) => (
                                                 <li key={i}>- {milestone}</li>
                                             ))}
