@@ -50,7 +50,7 @@ export function KeyFeatures() {
                                 <div className="p-3 bg-primary/10 rounded-lg">
                                     <feature.icon className="h-6 w-6 text-primary" />
                                 </div>
-                                <CardTitle className="font-headline text-xl text-primary-foreground">{feature.title}</CardTitle>
+                                <CardTitle className="font-headline text-xl text-primary">{feature.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
                                 <p className="text-muted-foreground">{feature.description}</p>
