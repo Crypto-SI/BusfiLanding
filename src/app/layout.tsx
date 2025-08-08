@@ -5,6 +5,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Bus-Fi: Invest in Africa\'s Future',
   description: 'A decentralized crowdfunding platform to finance bus networks in underserved African communities.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
